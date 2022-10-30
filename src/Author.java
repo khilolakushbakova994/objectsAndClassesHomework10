@@ -6,11 +6,16 @@ public class Author {
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
+
     public String getAuthorName () {
         return authorName;
     }
     public String getAuthorSurname () {
         return authorSurname;
     }
+    public String toString () {
+        return " Имя писателя  " + authorName + "\n  Фамилия писателя  " + authorSurname;
+    }
+
 
 }
